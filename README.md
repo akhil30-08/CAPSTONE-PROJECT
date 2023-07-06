@@ -8,4 +8,4 @@
 </ul>
 
 <h4>Live Link</h4>
-<a href="https://hanak.netlify.app/">HANAK NETLIFY</a>
+<a href="https://hanak.netlify.app/" style="inline-block">https://hanak.netlify.app</a>
