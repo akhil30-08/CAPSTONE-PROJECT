@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+div.g-4 {
+    margin: 0.1em;
+  }
+
+  h6 {
+    text-align: center;
+  }
+
+   div.card div.card-body a{
+    margin-left: 15%;
+  }
+
+  div.all {
+    display: flex;
+    justify-content: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: xx-large;
+    margin: 1rem;
+    background-color: rgba(173, 173, 15, 0.769);
+  }
+
+  /* Media queries for small/medium devices */
+  
+ @media all and (min-width:378px) and (max-width:427px){
+    div.card-body a{
+     font-size: x-small;
+     margin-left: 13%;
+ }
+ div.card-body a i{
+    font-size: 0.8rem;
+}
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+}
+
+@media all and (max-width:377px){
+  div.card div.card-body a{
+    width: 90%;
+    font-size: x-small;
+    margin-left: 10%;
+ }
+ div.card-body a i{
+    font-size: 0.6rem;
+}
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+}

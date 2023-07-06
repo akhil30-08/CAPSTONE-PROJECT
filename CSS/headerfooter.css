@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Header css */
+#logo {
+  width: 4.7em;
+  height: 3.5em;
+  border-radius: 1.5rem;
+}
+
+#input {
+  width: 20em;
+}
+
+#div2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 13rem;
+}
+
+#div3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#div3 a {
+  margin: 0.4rem 0 0 0.4rem;
+}
+
+#navigation {
+  background-color: rgb(208, 197, 187);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+div#navigation .nav .nav-item .nav-link {
+  color: black;
+  cursor: pointer;
+}
+
+
+/* footercss */
+footer {
+  background-color: rgb(43, 48, 53, 1);
+  margin-top: 0.4em;
+  color: aliceblue;
+  text-align: center;
+}
+
+footer div.row a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+footer div.row ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+/* Media queries to make content responsive */
+@media screen and (max-width: 990px) {
+  #div2 {
+    justify-content: flex-start;
+    margin-top: 0.7em;
+    margin-left: 0em;
+  }
+  #input {
+    width: 50%;
+  }
+  #div3 {
+    margin-top: 0.7em;
+    justify-content: flex-start;
+  }
+  div#navigation {
+    justify-content: center;
+  }
+  div#coverimage img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+#image{
+    width: 100%;
+    height: 85%;
+}
+
+h3#contactus{
+    margin: 1.2rem 0 1.2rem 0;
+    text-align: center;
+    background-color: rgba(21, 150, 193, 0.753);
+    padding: 0.5rem;
+}
+
+div.row{
+    margin: 0.3rem;
+}

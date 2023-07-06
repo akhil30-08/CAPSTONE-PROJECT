@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  div.card {
+    margin: 3.3%;
+    display: inline-block;
+  }
+
+  div.card h6 {
+    text-align: center;
+  }
+
+  div.card div.card-body a{
+    margin-left: 7%;
+  }
+
+  div#prod {
+    padding: 0.4rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    margin-top: 1rem;
+    background-color: rgba(173, 173, 15, 0.769);
+    color: rgb(8, 8, 8);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  div#coverimage {
+    display: flex;
+    justify-content: center;
+  }
+
+  div.carousel button{
+    width: 7%;
+  }
+
+  @media screen and (min-width:690px) and (max-width:990px) {
+    div.card {
+    margin: 4.3%;
+  }
+  div.card div.card-body a{
+    margin-left: 25%;
+  }
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  }
+
+  /* Media queries to make content responsive */
+  @media screen and (max-width:689px){
+    div.card {
+    margin: 2% 16.3%;
+  } 
+  div.card div.card-body a{
+    margin-left: 20%;
+  }
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  }

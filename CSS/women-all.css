@@ -1,0 +1,63 @@
+*{
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+div.row {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+div.card-body a{
+  margin-left: 13%;
+  font-size:small;
+}
+
+h6 {
+  text-align: center;
+}
+
+div.all {
+  display: flex;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: xx-large;
+  margin: 1rem;
+  background-color: rgba(173, 173, 15, 0.769);
+}
+
+/* Media queries to make content responsive */
+@media screen and (min-width: 376px) and (max-width:427px) {
+  div.card-body a {
+    font-size: smaller;
+    margin-left: 16%;
+  }
+  div.card-body a i {
+    font-size: 1em;
+  }
+  body{
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width:375px) {
+  div.card-body a {
+    font-size: x-small;
+    margin-left: 3%;
+    width: 92%;        /*i changed this*/
+  }
+  div.card-body a i {
+    font-size: 1.3em;
+  }
+  body{
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
