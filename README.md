@@ -1,1 +1,1 @@
-<b>This is a simple static e-commerce clothes website</b>
+<h1>This is a simple static e-commerce clothes website</h1>
